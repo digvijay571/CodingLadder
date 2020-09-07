@@ -427,6 +427,11 @@ a{
  .role{
      text-align: center;
  }
+ @media only screen and (max-width:730px){
+    .team_con{
+        display: none;
+    }
+ }
 
 
 /* Review section */
