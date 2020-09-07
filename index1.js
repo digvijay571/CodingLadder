@@ -4,14 +4,14 @@ $(document).ready(function(){
       mouseenter:function(){
          $('.dropdown_1').removeClass('hide').animate({
             opacity:1,
-            top:"10%"
+            top:"-5%"
          })
          $('.i2>a')[0].style.color ="red"   
       },
       mouseleave:function(){
          $('.dropdown_1').addClass('hide').animate({
             opacity:0.1,
-            top:"-5%"
+            top:"10%"
          })
       $('.i2>a')[0].style.color ="rgb(142,116,116)"
    },
