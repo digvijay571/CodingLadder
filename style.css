@@ -237,6 +237,7 @@ a{
           margin:20px auto;
           text-align: center;
       }
+
 @media only screen and (max-width:750px){
     .slider_con{
         margin:20px 0;
@@ -447,7 +448,7 @@ a{
      margin: auto;
      display: grid;
      padding: 10px;
-     margin:10px;
+     margin:15px;
      grid-template-columns:1fr 2fr;
      max-width: 620px;
      box-shadow: 1px 1px 6px rgb(104, 103, 103);
