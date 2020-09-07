@@ -446,11 +446,14 @@ a{
      max-width: 1270px;
      margin:0 80px;
      grid-template-columns:1fr 1fr;
+     justify-content: center;
+     
      grid-template-rows:300px 300px;
  }
  .review_con{
 
-     margin: auto;
+     /* margin: auto;
+      */
      display: grid;
      padding: 10px;
      margin:15px;
@@ -465,12 +468,25 @@ a{
      .h3{
          font-size: 30px;
      }
+     .review{
+         /* min-width:216px; */
+         height: 173px;
+        
+            display: block;
+            display: -webkit-box;
+            max-width: 300px;
+            -webkit-line-clamp: 7;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        
+     }
      .review_con{
-         min-width: 100px;
+         min-width: 70px;
      }
      .reviews_wrapper{
          margin: auto;
-         max-width: 400px;
+         max-width: 600px;
          /* display: flex;
          flex-direction: column; */
          grid-template-columns: 1fr;
