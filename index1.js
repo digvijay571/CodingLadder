@@ -11,7 +11,7 @@ $(document).ready(function(){
       mouseleave:function(){
          $('.dropdown_1').addClass('hide').animate({
             opacity:0.1,
-            top:"10%"
+            top:"8%"
          })
       $('.i2>a')[0].style.color ="rgb(142,116,116)"
    },
