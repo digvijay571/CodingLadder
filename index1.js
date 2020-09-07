@@ -4,7 +4,7 @@ $(document).ready(function(){
       mouseenter:function(){
          $('.dropdown_1').removeClass('hide').animate({
             opacity:1,
-            top:"-3%"
+            top:"0"
          })
          $('.i2>a')[0].style.color ="red"   
       },
