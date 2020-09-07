@@ -230,6 +230,13 @@ a{
 
   z-index: 1;
 }
+      .heading{
+         width:450px ;
+         
+          font-size:50px ;
+          margin:20px auto;
+          text-align: center;
+      }
 @media only screen and (max-width:750px){
     .slider_con{
         margin:20px 0;
@@ -254,13 +261,6 @@ a{
     grid-template-rows: 530px 530px;
 }
 
-.heading{
-   width:450px ;
-   
-    font-size:50px ;
-    margin:20px auto;
-    text-align: center;
-}
 
 .h3{
     font-size:50px ;
