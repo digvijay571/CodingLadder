@@ -467,7 +467,7 @@ a{
      }
      .reviews_wrapper{
          margin: auto;
-         max-width: 500px;
+         max-width: 400px;
          /* display: flex;
          flex-direction: column; */
          grid-template-columns: 1fr;
