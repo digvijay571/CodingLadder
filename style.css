@@ -7,9 +7,7 @@
     width:20px;
     /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);  */
 }
-.body{
-    overflow-x:hidden ;
-}
+
 
 
 /* Navbar styling */
@@ -445,6 +443,9 @@ a{
      min-width: 390px;
  }
  @media (max-width:855px){
+     .h3{
+         font-size: 25px;
+     }
      .reviews_wrapper{
          margin: auto;
          max-width: 500px;
