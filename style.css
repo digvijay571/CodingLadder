@@ -388,11 +388,16 @@ a{
 }
 @media only screen and (max-width:730px){
     .cards_con{
-        justify-content: center;
+        justify-items: center;
         margin: 0;
         grid-template-columns: 1fr;
         /* min-width: 380px; */
-        max-width: 60%;
+        max-width: 100%;
+    }
+    .card{
+        max-width:360px;
+        min-width: 271px;
+        padding:20px;
     }
 }
 
