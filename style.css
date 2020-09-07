@@ -442,6 +442,7 @@ a{
      transition: box-shadow 0.1s ease-in;
      min-width: 390px;
  }
+ 
  @media (max-width:855px){
      .h3{
          font-size: 25px;
